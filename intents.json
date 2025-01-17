@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+	{
+	  "tag": "Power Supply",
+      "patterns": [
+        "Where is the power supply?",
+        "Locate power supply",
+        "Power supply location",
+        "Where can I find the power supply?"
+      ],
+      "responses": [
+        "The power supply is located at LT1 & LM1."
+      ]
+    },
+    {
+      "tag": "M.2",
+      "patterns": [
+        "Where is the M.2?",
+        "Locate M.2",
+        "M.2 location",
+        "Where can I find the M.2?"
+      ],
+      "responses": [
+        "The M.2 is located at LT1 & LM3."
+      ]
+    },
+    {
+      "tag": "Motherboard",
+      "patterns": [
+        "Where is the motherboard?",
+        "Locate motherboard",
+        "Motherboard location",
+        "Where can I find the motherboard?"
+      ],
+      "responses": [
+        "The motherboard is located at LT1 & LT2."
+      ]
+    },
+    {
+      "tag": "SSD Card",
+      "patterns": [
+        "Where is the SSD card?",
+        "Locate SSD card",
+        "SSD card location",
+        "Where can I find the SSD card?"
+      ],
+      "responses": [
+        "The SSD card is located at LT2 & LM1."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
