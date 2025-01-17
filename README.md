@@ -1,8 +1,7 @@
 Steps on how it works:
 Python version: 3.12.6
 
-1. First, locate into chatbot-deployment and activate the python environment (FrontendAIPytorch)
-Alternative: You can create a python environment on your own in the folder and download the following packages:
+1. First, create a folder to store the folders of the project followed by creating a python environment on your own in the folder and download the following packages:
 Package           Version
 ----------------- ---------
 blinker           1.9.0
@@ -30,7 +29,8 @@ tqdm              4.67.1
 typing_extensions 4.12.2
 Werkzeug          3.1.3
 
-2. Next, run command "python train.py", it will train the AI model to speak like human based on the data ingested from intents.json
+
+2. Next, make sure your python environment is activated and run the command "python train.py", it will train the AI model to speak like human based on the data ingested from intents.json
 How it works, for example:
 "tag": "greeting",
       "patterns": [
@@ -54,4 +54,4 @@ It will train based on the tags, when the user says the words from the following
 
 4. Lastly is to run the command "python app.py" and open the local host (http://127.0.0.1:5000 for me)
 
-5. The chatbot is now runnable!"# AIInventoryLocatorChatbot" 
+5. The chatbot is now runnable!
