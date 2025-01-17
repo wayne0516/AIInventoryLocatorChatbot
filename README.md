@@ -1,36 +1,15 @@
 Steps on how it works:
 Python version: 3.12.6
 
-1. First, create a folder to store the folders of the project followed by creating a python environment on your own in the folder and download the following packages:
-Package           Version
------------------ ---------
-blinker           1.9.0
-click             8.1.8
-colorama          0.4.6
-filelock          3.16.1
-Flask             3.1.0
-fsspec            2024.12.0
-itsdangerous      2.2.0
-Jinja2            3.1.5
-joblib            1.4.2
-MarkupSafe        3.0.2
-mpmath            1.3.0
-networkx          3.4.2
-nltk              3.9.1
-numpy             2.2.1
-pillow            11.1.0
-pip               24.2
-regex             2024.11.6
-setuptools        75.6.0
-sympy             1.13.1
-torch             2.5.1
-torchvision       0.20.1
-tqdm              4.67.1
-typing_extensions 4.12.2
-Werkzeug          3.1.3
+1. First, create a folder to store the folders/files of the project
+2. Then, create a python environment 
+   python -m venv venv
+   venv\Scripts\activate
+   
+4. After that, in the folder and download the following packages
+   pip install Flask torch torchvision nltk
 
-
-2. Next, make sure your python environment is activated and run the command "python train.py", it will train the AI model to speak like human based on the data ingested from intents.json
+3. Next, run the command "python train.py", it will train the AI model to speak like human based on the data ingested from intents.json
 How it works, for example:
 "tag": "greeting",
       "patterns": [
